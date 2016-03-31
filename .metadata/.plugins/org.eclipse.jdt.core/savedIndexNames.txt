@@ -1,0 +1,12 @@
+INDEX VERSION 1.127+C:\Users\Craig\workspace\Grand-Circus\JavaBootcamp\.metadata\.plugins\org.eclipse.jdt.core
+485575027.index
+400574091.index
+4270056382.index
+1778627129.index
+1625781789.index
+640410353.index
+2307183400.index
+2446798781.index
+631022850.index
+4264793165.index
+1664405848.index

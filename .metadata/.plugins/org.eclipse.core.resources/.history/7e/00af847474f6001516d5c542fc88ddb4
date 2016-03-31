@@ -1,0 +1,39 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class GuessMyNumber {
+	
+		public static void main(String[] args) {
+			Scanner scan = new Scanner(System.in);
+			Random rand = new Random();
+			int userInput;
+			int counter = 1;
+			String repeat;
+
+			int randomNumber = rand.nextInt(100) + 1;
+			// System.out.println(randomNumber);
+
+			System.out.println("Welcome to the Guess a Number Game!");
+			System.out.println("+++++++++++++++++++++++++++++++++++");
+			
+			do{
+				System.out.println("\nI have chosen a number between 1  and 100.\nTry and guess it, n00b.");
+
+				System.out.print("\nEnter your lousy guess: ");
+				userInput = scan.nextInt();
+				if (userInput == randomNumber) {
+					System.out.println("You're a good guesser.");
+					System.out.println("It only took you " + counter + " tries.");
+					break;
+				} else {
+					System.out.println("That is incoorect.  Guess again.");
+					counter++;
+				}
+				
+				System.out.print("Try again? (y/n): ");
+				repeat = scan.next();
+
+			}while(repeat.equalsIgnoreCase("Y"));
+			scan.close();
+	}
+}

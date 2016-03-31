@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;doAgain&apos; in &apos;LetterGradeConverter.main(...)&apos; to &apos;repeat&apos;&#x0D;&#x0A;- Original project: &apos;Day3Bonus1&apos;&#x0D;&#x0A;- Original element: &apos;LetterGradeConverter.main(String[]).doAgain&apos;&#x0D;&#x0A;- Renamed element: &apos;doAgain&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;doAgain&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{LetterGradeConverter.java[LetterGradeConverter~main~\[QString;@doAgain!203!223!210!216!QString;!0!false" name="repeat" references="true" stamp="1459346433033" version="1.0"/>
+</session>
