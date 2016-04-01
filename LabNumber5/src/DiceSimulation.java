@@ -32,7 +32,7 @@ public class DiceSimulation {
 
 		} while (rollAnswer.equalsIgnoreCase("y"));
 
-		System.out.println("Come visit the Grand Circus Casino agian, soon!");
+		System.out.println("\nCome visit the Grand Circus Casino agian, soon!");
 	}
 
 	private static void checkBoxCars(int diceOne, int diceTwo) {
