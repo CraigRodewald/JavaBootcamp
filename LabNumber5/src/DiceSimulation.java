@@ -6,40 +6,32 @@ public class DiceSimulation {
 		Scanner scan = new Scanner(System.in);
 		Random rand = new Random();
 		String rollAnswer;
-		int counter= 0;
+		int counter = 0;
 		int diceSides;
-		
-		System.out.print("Welcome to the Grand Circus Casino!  ");
-		
-		System.out.print("How many sides do you want your dice to hace?: ");
+
+		System.out.println("Welcome to the Grand Circus Casino!\n");
+
 		diceSides = getSides(scan);
 
 		do {
-			if (counter == 0) {
-				System.out.print("Roll the dice? (y/n) ");
-				rollAnswer = getAnswer(scan);
-			}
-			else {
-				System.out.println("\nRoll again? (y/n) ");
-				rollAnswer = getAnswer(scan);
-			}
-			
+				rollAnswer = getAnswer(scan, counter);
+
 			if (rollAnswer.equalsIgnoreCase("y")) {
-				int diceOne = rollDice(rand);
-				int diceTwo = rollDice(rand);
+				int diceOne = rollDice(rand, diceSides);
+				int diceTwo = rollDice(rand, diceSides);
 				counter++;
-				
+
 				System.out.println("\nRoll " + counter + ":");
 				System.out.println(diceOne);
 				System.out.println(diceTwo);
-				
+
 				checkCraps(diceOne, diceTwo);
 				checkSnakeEyes(diceOne, diceTwo);
 				checkBoxCars(diceOne, diceTwo);
-			} 
-			
+			}
+
 		} while (rollAnswer.equalsIgnoreCase("y"));
-		
+
 		System.out.println("Come visit the Grand Circus Casino agian, soon!");
 	}
 
@@ -59,33 +51,56 @@ public class DiceSimulation {
 		if (diceOne + diceTwo == 2 || diceOne + diceTwo == 3 || diceOne + diceTwo == 12) {
 			System.out.print("\n CRAPS!  ");
 		}
-		
+
 	}
 
-	private static int rollDice(Random rand) {
-		int diceValue = rand.nextInt(6)+1;
-		
+	private static int rollDice(Random rand, int sides) {
+		int diceValue = rand.nextInt(sides) + 1;
+
 		return diceValue;
 	}
 
-	private static String getAnswer(Scanner scan) {
-		String answer = scan.next();
+	private static String getAnswer(Scanner scan, int counter) {
+		scan = new Scanner(System.in);
+		String answer = null;
+		String errorMessage = "\nYou must answer only with a 'y' or 'n'\nPlease try again\n";
+		Boolean wrongAnswerPunk = true;
 		
+		try {
+			while (wrongAnswerPunk) {
+				if (counter == 0) {
+					System.out.print("\nRoll the dice? (y/n) ");
+				} else {
+					System.out.print("\nRoll again? (y/n) ");
+				}
+				answer = scan.next();
+				if (answer.equalsIgnoreCase("y") || answer.equalsIgnoreCase("n")) {
+					wrongAnswerPunk = false;
+				}
+				else {
+					System.out.println(errorMessage);
+				}
+			}
+		} catch (Exception e) {
+			System.out.println(errorMessage);
+			getAnswer(scan, counter);
+		}
+
 		return answer;
 	}
-	
-	private static int getSides(Scanner scan) {
-		int answer = null;
 
-		do {
-			try {
-				answer = scan.nextInt();
-			}
-			catch (Exception e) {
-				System.out.println("That is an invalid input.\nPlease try agin.");
-			} 
-		}while (answer.hasNextInt());
-		
-		return answer;
+	private static int getSides(Scanner scan) {
+		scan = new Scanner(System.in);
+		int sides = 0;
+
+		try {
+			System.out.print("How many sides do you want your dice to have?: ");
+			sides = scan.nextInt();
+		} catch (Exception e) {
+			System.out.println("\nYou must enter a number.\nPlease try agin.\n");
+			getSides(scan);
+		}
+
+		return sides;
 	}
 }
