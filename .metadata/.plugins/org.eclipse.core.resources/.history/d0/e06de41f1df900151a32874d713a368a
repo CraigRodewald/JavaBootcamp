@@ -21,7 +21,6 @@ public class EvenNumberGeneratorIntoString {
 			repeat = scan.next();
 		} while (repeat.equalsIgnoreCase("y"));
 		
-		System.out.println("Thank you for trying my program.");
 	}
 
 	public static String EvenNumberGenerator(int numberFromUser) {

@@ -10,18 +10,15 @@ public class EvenNumberGeneratorIntoString {
 		
 		String repeat;
 		
-		System.out.println("Welcome to the Even Number Generator!");
-		
 		do {
-			System.out.print("Enter a number: ");
+			System.out.print("Enter a number");
 			int userInput = scan.nextInt();
 			String evenNumbersReturned = EvenNumberGenerator(userInput);
-			System.out.println("\nThe even numbers are: " + evenNumbersReturned);
+			System.out.println("\n" + evenNumbersReturned);
 			System.out.print("\nContinue? (y/n) ");
 			repeat = scan.next();
 		} while (repeat.equalsIgnoreCase("y"));
 		
-		System.out.println("Thank you for trying my program.");
 	}
 
 	public static String EvenNumberGenerator(int numberFromUser) {

@@ -8,20 +8,13 @@ public class EvenNumberGeneratorIntoString {
 	
 	public static void main(String[] args) {
 		
-		String repeat;
+		System.out.println("Enter a number");
+		int userInput = scan.nextInt();
 		
-		System.out.println("Welcome to the Even Number Generator!");
+		String evenNumbersReturned = EvenNumberGenerator(userInput);
 		
-		do {
-			System.out.print("Enter a number: ");
-			int userInput = scan.nextInt();
-			String evenNumbersReturned = EvenNumberGenerator(userInput);
-			System.out.println("\nThe even numbers are: " + evenNumbersReturned);
-			System.out.print("\nContinue? (y/n) ");
-			repeat = scan.next();
-		} while (repeat.equalsIgnoreCase("y"));
+		System.out.println(evenNumbersReturned);
 		
-		System.out.println("Thank you for trying my program.");
 	}
 
 	public static String EvenNumberGenerator(int numberFromUser) {
