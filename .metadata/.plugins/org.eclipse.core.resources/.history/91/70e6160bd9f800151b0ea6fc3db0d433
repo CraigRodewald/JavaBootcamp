@@ -1,0 +1,22 @@
+package CraigRodewald;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class testEvenNumberGeneerator {
+
+	@Test
+	public void testReturnZeroIfZeroIsGiven() throws Exception {
+		EvenNumberGeneratorIntoString engis = new EvenNumberGeneratorIntoString();
+		String result = engis.EvenNumberGenerator(0);
+		assertEquals("Number doesn't match", "0", result);
+	}
+	
+	@Test
+	public void testReturnZeroAndTwoIfTwoIsGiven() throws Exception {
+		EvenNumberGeneratorIntoString engis = EvenNumberGeneratorIntoString();
+		String result = engis.EvenNumberGenerator(2);
+		assertEquals("Numbers don't match", "02", result);
+	}
+}

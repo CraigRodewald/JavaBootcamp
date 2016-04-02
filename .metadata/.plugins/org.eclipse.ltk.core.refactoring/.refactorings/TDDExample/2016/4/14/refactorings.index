@@ -1,0 +1,8 @@
+1459530462213	Extract constant '_0'
+1459530613955	Extract local variable 'i'
+1459530643901	Rename local variable 'negativeOne'
+1459531003918	Extract local variable 'i'
+1459533470264	Rename local variable 'j'
+1459538086325	Extract method 'extracted'
+1459541629642	Rename type 'EvenNumberGenerator'
+1459554240549	Rename type 'EvenNumberGeneratorString'

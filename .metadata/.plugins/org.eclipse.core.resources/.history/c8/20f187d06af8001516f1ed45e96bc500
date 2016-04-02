@@ -1,0 +1,28 @@
+package com.gc.tdd;
+
+public class EvenNumberGeneratorString {
+	public static void main(String[] args) {
+		String answer = generateAndGetEvenNumbers();
+		System.out.println(answer);
+	}
+	
+	public static String generateAndGetEvenNumbers(int i) {
+		String result = "";
+		String evenNumber;
+		
+		if (i < 0 || i > 100) {
+			throw new IllegalArgumentException();
+		}
+		
+		for (int isEvenNumber = 0; isEvenNumber <= i; isEvenNumber++) {
+			
+			if (isEvenNumber%2 == 0) {
+				evenNumber = String.valueOf(isEvenNumber);
+				result = result + evenNumber;
+			}
+		
+		}
+		
+		return result;
+	}
+}

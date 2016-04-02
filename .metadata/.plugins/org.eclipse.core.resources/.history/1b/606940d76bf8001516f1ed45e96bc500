@@ -1,0 +1,38 @@
+package com.gc.tdd;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+//Start a new class that validates everything as a String instead of the ArrayList
+
+public class EvenNumberGeneratorStringTest {
+	
+//	EvenNumberGeneratorString engs = new EvenNumberGeneratorString();
+//	
+//	@Before
+//	public void setupBeforeClass() {
+//		engs = new EvenNumberGeneratorString();
+//	}
+	
+//	@Test
+//	public void mustInstantiateGenerator() throws Exception {
+//		EvenNumberGeneratorString engs = new EvenNumberGeneratorString();
+//		assertNotNull(engs);
+//	}
+	
+//	@Test
+//	public void mustReturnZeroForZeroInput() throws Exception {
+//		EvenNumberGeneratorString engs = new EvenNumberGeneratorString();
+//		String returnedValue = engs.generateAndGetEvenNumbers(0);
+//		String expected = "0";
+//		assertEquals("Numbers do not match", returnedValue, expected);
+//		
+//	}
+	
+	@Test
+	public void testName() throws Exception {
+		
+	}
+}

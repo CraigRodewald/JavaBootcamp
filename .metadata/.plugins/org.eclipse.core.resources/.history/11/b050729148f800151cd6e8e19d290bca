@@ -1,0 +1,5 @@
+package com.gc.tdd;
+
+public class EvenNumberGeneratorStringTest {
+
+}

@@ -1,0 +1,14 @@
+package com.gc.tdd;
+
+public class EvenNumberGenerator {
+
+	public int[] generateAndGetEvenNumbers(int oneHundredOneInput) {
+		if (oneHundredOneInput <= 0 || oneHundredOneInput > 100) {
+			throw new IllegalArgumentException();
+		}
+		
+		int[] result = {0};
+		return result;
+	}
+
+}

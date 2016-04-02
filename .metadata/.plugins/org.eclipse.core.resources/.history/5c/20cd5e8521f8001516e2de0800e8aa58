@@ -1,0 +1,10 @@
+package com.gc.tdd;
+
+public class EvenNumberGenerator {
+
+	public int generateAndGetEvenNumbers(int i) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
