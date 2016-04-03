@@ -21,4 +21,9 @@
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 <fullyQualifiedTypeName name="CraigRodewald.EvenNumberGeneratorIntoString"/>
+<fullyQualifiedTypeName name="com.teamtreehouse.model.SongBook"/>
+<fullyQualifiedTypeName name="com.teamtreehouse.KaraokeMachine"/>
+<fullyQualifiedTypeName name="teamtreehouse.KaraokeMachine"/>
+<fullyQualifiedTypeName name="teamtreehouse.model.SongBook"/>
+<fullyQualifiedTypeName name="teamtreehouse.model.Song"/>
 </qualifiedTypeNameHistroy>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/Day3Bonus1/src/LetterGradeConverter.java"/>
+<listEntry value="/Bonus-1/src/LetterGradeConverter.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="LetterGradeConverter"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Day3Bonus1"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Bonus-1"/>
 </launchConfiguration>
