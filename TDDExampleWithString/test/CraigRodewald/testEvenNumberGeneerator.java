@@ -23,7 +23,7 @@ public class testEvenNumberGeneerator {
 	@Test
 	public void testReturnZeroIfZeroIsGiven() throws Exception {
 		engis = new EvenNumberGeneratorIntoString();
-		String result = engis.EvenNumberGenerator(0);
+		String result = EvenNumberGeneratorIntoString.EvenNumberGenerator(0);
 		assertEquals("Number doesn't match", "0", result);
 	}
 	
