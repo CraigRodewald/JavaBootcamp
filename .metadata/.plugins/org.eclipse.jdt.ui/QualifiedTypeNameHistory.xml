@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.awt.dnd.DragGestureEvent"/>
 <fullyQualifiedTypeName name="Customer"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthDesktopIconUI"/>
 <fullyQualifiedTypeName name="com.gc.tdd.EvenNumberGenerator"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="org.junit.BeforeClass"/>
 <fullyQualifiedTypeName name="junit.framework.TestCase"/>
 <fullyQualifiedTypeName name="junit.extensions.TestSetup"/>
@@ -16,7 +14,6 @@
 <fullyQualifiedTypeName name="org.junit.Before"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
-<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 <fullyQualifiedTypeName name="CraigRodewald.EvenNumberGeneratorIntoString"/>
 <fullyQualifiedTypeName name="com.teamtreehouse.model.SongBook"/>
 <fullyQualifiedTypeName name="com.teamtreehouse.KaraokeMachine"/>
@@ -27,6 +24,20 @@
 <fullyQualifiedTypeName name="java.lang.annotation.Repeatable"/>
 <fullyQualifiedTypeName name="com.CraigRodewald.Lab7.ErrorHandlingExercise"/>
 <fullyQualifiedTypeName name="java.lang.Boolean"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.CraigRodewald.Mammal"/>
+<fullyQualifiedTypeName name="java.lang.IllegalAccessError"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="com.CraigRodewald.Animal"/>
+<fullyQualifiedTypeName name="com.CraigRodewald.BushyTail"/>
+<fullyQualifiedTypeName name="com.CraigRodewald.Cat"/>
+<fullyQualifiedTypeName name="com.CraigRodewald.Lab10.Drama"/>
+<fullyQualifiedTypeName name="com.CraigRodewald.Lab10.Horror"/>
+<fullyQualifiedTypeName name="com.CraigRodewald.Lab10.Scifi"/>
+<fullyQualifiedTypeName name="com.CraigRodewald.Lab10.Animated"/>
+<fullyQualifiedTypeName name="java.lang.invoke.SwitchPoint"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.CraigRodewald.Lab10.Movie"/>
 </qualifiedTypeNameHistroy>

@@ -49,6 +49,7 @@ public class PigLatinTranslator {
 		return word;
 	}
 
+	// Try ignore case
 	public static Boolean checkIfWordStartsWithVowel(String word) {
 		char firstLetter = word.charAt(0);
 		char[] vowels = { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
@@ -72,14 +73,10 @@ public class PigLatinTranslator {
 		String changedWord = startingWord.substring(1, startingWord.length()) + startingWord.substring(0, 1);
 		Boolean startsWithVowel = checkIfWordStartsWithVowel(changedWord);
 
-		if (startsWithVowel) {
-			//System.out.println(word);
-			return changedWord;
-		} else {
+		if (!startsWithVowel) {
 			changedWord = moveConsonantsToEndOfWord(changedWord);
-
-			return changedWord;
 		}
+		return changedWord;
 	}
 
 	public static String addAyToWordStartingWithConsonant(String word) {
