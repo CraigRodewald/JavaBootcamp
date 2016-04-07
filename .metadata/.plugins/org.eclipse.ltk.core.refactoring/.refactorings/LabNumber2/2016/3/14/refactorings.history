@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename method &apos;ChooseAdventure.getInput(...)&apos; to &apos;getStringInput&apos;&#x0D;&#x0A;- Original project: &apos;LabNumber2&apos;&#x0D;&#x0A;- Original element: &apos;ChooseAdventure.getInput(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;ChooseAdventure.getStringInput(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;getInput&apos;" flags="589826" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;{ChooseAdventure.java[ChooseAdventure~getInput~QScanner;" name="getStringInput" references="true" stamp="1459279198309" version="1.0"/>
-</session>

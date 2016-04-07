@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/LabNumber2/src/ChooseAdventure.java"/>
+<listEntry value="/LabNumber02/src/ChooseAdventure.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="ChooseAdventure"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="LabNumber2"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="LabNumber02"/>
 </launchConfiguration>
