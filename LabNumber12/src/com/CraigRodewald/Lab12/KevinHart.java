@@ -5,17 +5,17 @@ import java.util.Random;
 import com.CraigRodewald.Lab12.Roshambo.RoshamboEnum;
 
 public class KevinHart extends Player {
-	Random rand;
+	Random rand = new Random();
 
 	// TODO This is not generating a random number each time it is called
 	public KevinHart() {
-		rand = new Random();
 		this.name = "Kevin Hart";
-		this.roshambo = generateRoshambo(rand.nextInt(3) + 1);
+		this.roshambo = generateRoshambo(RoshamboEnum.PAPER);
 	}
 
-	public RoshamboEnum generateRoshambo(int choice) {
-		System.out.println(choice);
+	public RoshamboEnum generateRoshambo(RoshamboEnum roshambo) {
+		int choice = getRandomNumber();
+
 		switch (choice) {
 		case 1:
 			return RoshamboEnum.ROCK;
@@ -24,5 +24,10 @@ public class KevinHart extends Player {
 		default:
 			return RoshamboEnum.SCISSORS;
 		}
+	}
+
+	public int getRandomNumber() {
+		rand = new Random();
+		return rand.nextInt(3) + 1;
 	}
 }

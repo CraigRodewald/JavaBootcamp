@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="org.junit.BeforeClass"/>
 <fullyQualifiedTypeName name="junit.framework.TestCase"/>
 <fullyQualifiedTypeName name="junit.extensions.TestSetup"/>
 <fullyQualifiedTypeName name="com.gc.tdd.EvenNumberGeneratorString"/>
@@ -50,7 +48,6 @@
 <fullyQualifiedTypeName name="com.CraigRodewald.Lab12.RoshamboClass"/>
 <fullyQualifiedTypeName name="com.CraigRodewald.Lab12.RoshamboClass.Roshambo"/>
 <fullyQualifiedTypeName name="java.lang.Enum"/>
-<fullyQualifiedTypeName name="com.CraigRodewald.Lab12.Player"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.CraigRodewald.Lab12.DwayneJohnson"/>
 <fullyQualifiedTypeName name="com.CraigRodewald.Lab12.KevinHart"/>
@@ -58,6 +55,9 @@
 <fullyQualifiedTypeName name="java.awt.DisplayMode"/>
 <fullyQualifiedTypeName name="com.CraigRodewald.Lab12.RoshamboApp"/>
 <fullyQualifiedTypeName name="com.CraigRodewald.Lab12.Validator"/>
+<fullyQualifiedTypeName name="com.CraigRodewald.Lab12.Player"/>
+<fullyQualifiedTypeName name="com.CraigRodewald.Lab13.Countable"/>
 <fullyQualifiedTypeName name="com.CraigRodewald.Lab12.Roshambo"/>
 <fullyQualifiedTypeName name="com.CraigRodewald.Lab12.Roshambo.RoshamboEnum"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
 </qualifiedTypeNameHistroy>
