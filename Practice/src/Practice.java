@@ -25,7 +25,7 @@ public class Practice {
 			Random rand = new Random();
 			randomNumber = rand.nextInt(3) + 1;
 			System.out.println(randomNumber);
-		} while (randomNumber != 3);
+		} while (randomNumber != 4);
 
 	}
 }

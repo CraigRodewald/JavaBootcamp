@@ -31,7 +31,6 @@ public class RoshamboApp {
 		// User selects an opponent
 		do {
 			validation = true;
-
 			displayPrompt("\n\nSelect an opponent (1/2): ");
 			userAnswer = getUserAnswer(scan);
 			switch (Integer.parseInt(userAnswer)) {
@@ -51,31 +50,9 @@ public class RoshamboApp {
 				break;
 			}
 		} while (!validation);
-
 		do {
-			// User chooses rock, paper, or scissors
-			do {
-				validation = true;
-
-				displayPrompt("\n\nRock, paper, or scissors? (R/P/S): ");
-				userAnswer = getUserAnswer(scan);
-				switch (userAnswer.toUpperCase()) {
-				case "R":
-					user.setRoshamboValue(RoshamboEnum.ROCK);
-					break;
-				case "P":
-					user.setRoshamboValue(RoshamboEnum.PAPER);
-					break;
-				case "S":
-					user.setRoshamboValue(RoshamboEnum.SCISSORS);
-					break;
-
-				default:
-					displayPrompt(errorInvalid);
-					validation = false;
-					break;
-				}
-			} while (!validation);
+			opponent.generateRoshambo();
+			user.generateRoshambo();
 			// Display player's choice
 			displayPrompt("\n" + user.getName() + ": " + Roshambo.toString(user.getRoshamboValue()));
 			// Display opponent' choice
@@ -140,4 +117,5 @@ public class RoshamboApp {
 	public static void displayPrompt(String prompt) {
 		System.out.print(prompt);
 	}
+
 }

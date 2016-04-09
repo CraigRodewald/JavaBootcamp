@@ -6,10 +6,10 @@ public class DwayneJohnson extends Player {
 
 	public DwayneJohnson() {
 		this.name = "Dwayne Johnson";
-		this.roshambo = generateRoshambo(RoshamboEnum.ROCK);
+		this.roshambo = generateRoshambo();
 	}
 
-	public RoshamboEnum generateRoshambo(RoshamboEnum roshambo) {
-		return roshambo;
+	public RoshamboEnum generateRoshambo() {
+		return RoshamboEnum.ROCK;
 	}
 }

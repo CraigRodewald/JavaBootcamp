@@ -22,5 +22,5 @@ abstract class Player {
 		this.roshambo = roshambo;
 	}
 
-	abstract public RoshamboEnum generateRoshambo(RoshamboEnum rosambo);
+	abstract public RoshamboEnum generateRoshambo();
 }
