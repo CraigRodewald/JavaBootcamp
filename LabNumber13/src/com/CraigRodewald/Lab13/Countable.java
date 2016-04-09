@@ -1,21 +1,12 @@
 package com.CraigRodewald.Lab13;
 
 public interface Countable {
-	default void incrementCount() {
 
-	}
+	public void incrementCount();
 
-	default void resetCount() {
+	public void resetCount();
 
-	}
+	public int getCount();
 
-	default int getCount() {
-		return 0;
-
-	}
-
-	default String getCountString() {
-		return null;
-
-	}
+	public String getCountString();
 }
