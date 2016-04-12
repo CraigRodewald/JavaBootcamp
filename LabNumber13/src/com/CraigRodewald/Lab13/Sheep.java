@@ -16,6 +16,10 @@ public class Sheep implements Cloneable, Countable {
 		return sheepName;
 	}
 
+	Sheep clone(String sheepName) {
+		return new Sheep(sheepName);
+	}
+
 	@Override
 	public void incrementCount() {
 		count++;

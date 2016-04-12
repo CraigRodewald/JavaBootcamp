@@ -8,12 +8,12 @@ public class MyValidator extends OOValidator {
 		super(scan);
 	}
 
-	public String getRequiredString(String prompt) {
-		return null;
+	public static String getRequiredString(String prompt) {
+		return ("Error! Invalid " + prompt + " value.  Try again.");
 	}
 
-	public String getChoiceString(String prompt, String s1, String s2) {
-		return null;
+	public static String getChoiceString(String prompt, String s1, String s2) {
+		return ("Enter " + prompt + " between " + s1 + " and " + s2 + ": ");
 	}
 
 }
